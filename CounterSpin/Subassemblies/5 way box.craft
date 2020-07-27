@@ -1,0 +1,1317 @@
+ship = 5 way box
+version = 1.10.0
+description = No Description.
+type = None
+size = 7.82430792,7.82432747,6.34525681
+steamPublishedFileId = 0
+persistentId = 4220892181
+rot = 0,0,0,0
+missionFlag = 
+vesselType = Debris
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+PART
+{
+	part = largeAdapter_4293818280
+	partName = Part
+	persistentId = 2056549943
+	pos = 2.97725987,7.48824883,3.02819061
+	attPos = 0,0,0
+	attPos0 = 2.97725987,7.48824883,3.02819061
+	rot = 0.707106829,0,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = stationHub_4293818990
+	attN = top,stationHub_4293818990_0|0.75|0_0|1|0_0|0.75|0_0|1|0
+	attN = bottom,Null_0_0|-0.754999995|0_0|-1|0_0|-0.754999995|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = stationHub_4293818990
+	partName = Part
+	persistentId = 3957511484
+	pos = 2.97725987,7.48824883,4.69034672
+	attPos = 0,0,0
+	attPos0 = 2.55948162,7.63728142,2.55376673
+	rot = 0.707106829,0,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = OrbitalKitContainer2_4293818864
+	link = OrbitalKitContainer2_4293818718
+	link = OrbitalKitContainer2_4293818572
+	link = OrbitalKitContainer2_4293818426
+	link = OrbitalKitContainer2_4293819136
+	attN = right,OrbitalKitContainer2_4293818864_0.912153482|0|0_1|0|0_0.912153482|0|0_1|0|0
+	attN = left,OrbitalKitContainer2_4293818718_-0.912153482|0|0_-1|0|0_-0.912153482|0|0_-1|0|0
+	attN = back,OrbitalKitContainer2_4293818426_0|0|0.912153482_0|0|1_0|0|0.912153482_0|0|1
+	attN = front,OrbitalKitContainer2_4293818572_0|0|-0.912153482_0|0|-1_0|0|-0.912153482_0|0|-1
+	attN = top,OrbitalKitContainer2_4293819136_0|0.912153482|0_0|1|0_0|0.912153482|0_0|1|0
+	attN = bottom,largeAdapter_4293818280_0|-0.912153482|0_0|-1|0_0|-0.912153482|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Light
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = OrbitalKitContainer2_4293818864
+	partName = Part
+	persistentId = 2374840896
+	pos = 5.38941288,7.48824883,4.69034767
+	attPos = 0,0,0
+	attPos0 = 2.41215324,4.76836931E-07,0
+	rot = 0.50000006,0.50000006,-0.50000006,0.50000006
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 0,0,-0.707106829,0.707106829
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,Null_0_0|1.5|0_0|1|0_0|1.5|0_0|1|0
+	attN = bottom,stationHub_4293818990_0|-1.5|0_0|-1|0_0|-1.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DockedKitContainer
+		isEnabled = True
+		ConstructDockingNode = -1
+		yRotation = Forward
+		Facility = None
+		KitName = None
+		ConstraintType = None
+		ConstrainBulkhead = 1.25
+		ConstrainLength = 1
+		ConstrainWidth = 1.25
+		ConstrainHeight = 1.25
+		Size = (2.02929378, 2.84719992, 2.02929473)
+		TargetSize = (0, 0, 0)
+		state = IDLE
+		ShowDeployHint = False
+		stagingEnabled = True
+		kit
+		{
+			KitResourcesMass = 0
+			KitResourcesCost = 0
+			ResourcesMass = 0
+			ResourcesCost = 0
+			HasLaunchClamps = False
+			Name = 
+			CurrentIndex = -1
+			id = 716143dd7fc349a8acae858ee3a7f46e
+			ShipMetric
+			{
+				bounds_center = 0,0,0
+				bounds_size = 0,0,0
+				crew_capacity = 0
+				mass = 0
+				cost = 0
+			}
+			DockingNodes
+			{
+			}
+			AdditionalResources
+			{
+			}
+			Jobs
+			{
+			}
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Transport
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Construction
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = OrbitalKitContainer2_4293818718
+	partName = Part
+	persistentId = 4268738132
+	pos = 0.56510663,7.4882493,4.69034767
+	attPos = 0,0,0
+	attPos0 = -2.41215324,4.76836931E-07,-4.76836931E-07
+	rot = -0.50000006,0.50000006,-0.50000006,-0.50000006
+	attRot = 0,0,-0.707106709,-0.707106709
+	attRot0 = 0,0,-0.707106829,-0.707106829
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,Null_0_0|1.5|0_0|1|0_0|1.5|0_0|1|0
+	attN = bottom,stationHub_4293818990_0|-1.5|0_0|-1|0_0|-1.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DockedKitContainer
+		isEnabled = True
+		ConstructDockingNode = -1
+		yRotation = Forward
+		Facility = None
+		KitName = None
+		ConstraintType = None
+		ConstrainBulkhead = 1.25
+		ConstrainLength = 1
+		ConstrainWidth = 1.25
+		ConstrainHeight = 1.25
+		Size = (2.02929378, 2.84719992, 2.02929473)
+		TargetSize = (0, 0, 0)
+		state = IDLE
+		ShowDeployHint = False
+		stagingEnabled = True
+		kit
+		{
+			KitResourcesMass = 0
+			KitResourcesCost = 0
+			ResourcesMass = 0
+			ResourcesCost = 0
+			HasLaunchClamps = False
+			Name = 
+			CurrentIndex = -1
+			id = 716143dd7fc349a8acae858ee3a7f46e
+			ShipMetric
+			{
+				bounds_center = 0,0,0
+				bounds_size = 0,0,0
+				crew_capacity = 0
+				mass = 0
+				cost = 0
+			}
+			DockingNodes
+			{
+			}
+			AdditionalResources
+			{
+			}
+			Jobs
+			{
+			}
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Transport
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Construction
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = OrbitalKitContainer2_4293818572
+	partName = Part
+	persistentId = 3222411911
+	pos = 2.97725987,9.90040874,4.69034767
+	attPos = 0,0,0
+	attPos0 = 0,2.38418465E-07,-2.41215301
+	rot = 0,0.707106829,0,-0.707106829
+	attRot = 0.49999994,0.49999994,-0.49999994,-0.49999994
+	attRot0 = 0.5,0.5,-0.5,-0.5
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,Null_0_0|1.5|0_0|1|0_0|1.5|0_0|1|0
+	attN = bottom,stationHub_4293818990_0|-1.5|0_0|-1|0_0|-1.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DockedKitContainer
+		isEnabled = True
+		ConstructDockingNode = -1
+		yRotation = Forward
+		Facility = None
+		KitName = None
+		ConstraintType = None
+		ConstrainBulkhead = 1.25
+		ConstrainLength = 1
+		ConstrainWidth = 1.25
+		ConstrainHeight = 1.25
+		Size = (2.02929378, 2.84719992, 2.02929473)
+		TargetSize = (0, 0, 0)
+		state = IDLE
+		ShowDeployHint = False
+		stagingEnabled = True
+		kit
+		{
+			KitResourcesMass = 0
+			KitResourcesCost = 0
+			ResourcesMass = 0
+			ResourcesCost = 0
+			HasLaunchClamps = False
+			Name = 
+			CurrentIndex = -1
+			id = 716143dd7fc349a8acae858ee3a7f46e
+			ShipMetric
+			{
+				bounds_center = 0,0,0
+				bounds_size = 0,0,0
+				crew_capacity = 0
+				mass = 0
+				cost = 0
+			}
+			DockingNodes
+			{
+			}
+			AdditionalResources
+			{
+			}
+			Jobs
+			{
+			}
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Transport
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Construction
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = OrbitalKitContainer2_4293818426
+	partName = Part
+	persistentId = 3013621395
+	pos = 2.97725987,5.07608891,4.69034719
+	attPos = 0,0,0
+	attPos0 = 0,4.76836931E-07,2.41215277
+	rot = 0.707106829,0,0.707106829,0
+	attRot = 0.49999994,0.49999994,0.49999994,0.49999994
+	attRot0 = 0.5,0.5,0.5,0.5
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,Null_0_0|1.5|0_0|1|0_0|1.5|0_0|1|0
+	attN = bottom,stationHub_4293818990_0|-1.5|0_0|-1|0_0|-1.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DockedKitContainer
+		isEnabled = True
+		ConstructDockingNode = -1
+		yRotation = Forward
+		Facility = None
+		KitName = None
+		ConstraintType = None
+		ConstrainBulkhead = 1.25
+		ConstrainLength = 1
+		ConstrainWidth = 1.25
+		ConstrainHeight = 1.25
+		Size = (2.02929378, 2.84719992, 2.02929473)
+		TargetSize = (0, 0, 0)
+		state = IDLE
+		ShowDeployHint = False
+		stagingEnabled = True
+		kit
+		{
+			KitResourcesMass = 0
+			KitResourcesCost = 0
+			ResourcesMass = 0
+			ResourcesCost = 0
+			HasLaunchClamps = False
+			Name = 
+			CurrentIndex = -1
+			id = 716143dd7fc349a8acae858ee3a7f46e
+			ShipMetric
+			{
+				bounds_center = 0,0,0
+				bounds_size = 0,0,0
+				crew_capacity = 0
+				mass = 0
+				cost = 0
+			}
+			DockingNodes
+			{
+			}
+			AdditionalResources
+			{
+			}
+			Jobs
+			{
+			}
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Transport
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Construction
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = OrbitalKitContainer2_4293819136
+	partName = Part
+	persistentId = 629762860
+	pos = 2.97725987,7.48824883,7.1025033
+	attPos = 0,0,0
+	attPos0 = 0,2.41215158,-2.38418238E-07
+	rot = 0.707106829,0,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,Null_0_0|1.5|0_0|1|0_0|1.5|0_0|1|0
+	attN = bottom,stationHub_4293818990_0|-1.5|0_0|-1|0_0|-1.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DockedKitContainer
+		isEnabled = True
+		ConstructDockingNode = -1
+		yRotation = Forward
+		Facility = None
+		KitName = None
+		ConstraintType = None
+		ConstrainBulkhead = 1.25
+		ConstrainLength = 1
+		ConstrainWidth = 1.25
+		ConstrainHeight = 1.25
+		Size = (2.02929378, 2.84719992, 2.02929473)
+		TargetSize = (0, 0, 0)
+		state = IDLE
+		ShowDeployHint = False
+		stagingEnabled = True
+		kit
+		{
+			KitResourcesMass = 0
+			KitResourcesCost = 0
+			ResourcesMass = 0
+			ResourcesCost = 0
+			HasLaunchClamps = False
+			Name = 
+			CurrentIndex = -1
+			id = 716143dd7fc349a8acae858ee3a7f46e
+			ShipMetric
+			{
+				bounds_center = 0,0,0
+				bounds_size = 0,0,0
+				crew_capacity = 0
+				mass = 0
+				cost = 0
+			}
+			DockingNodes
+			{
+			}
+			AdditionalResources
+			{
+			}
+			Jobs
+			{
+			}
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Transport
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Construction
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}

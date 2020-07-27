@@ -1,0 +1,2374 @@
+ship = Construction Supply
+version = 1.9.1
+description = No Description.
+type = None
+size = 10.8064556,8.90398788,10.8064613
+steamPublishedFileId = 0
+persistentId = 1273480764
+rot = 0,0,0,0
+missionFlag = 
+vesselType = Debris
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+PART
+{
+	part = largeAdapter_4293698606
+	partName = Part
+	persistentId = 4118003630
+	pos = -10.2013836,25.7195606,2.84315038
+	attPos = 0,0,0
+	attPos0 = -10.2013836,25.7195606,2.84315038
+	rot = 1,0,0,0
+	attRot = 0.99999994,0,0,0
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Rockomax32.BW_4293682142
+	attN = top,Null_0_0|0.75|0_0|1|0_0|0.75|0_0|1|0
+	attN = bottom,Rockomax32.BW_4293682142_0|-0.754999995|0_0|-1|0_0|-0.754999995|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Rockomax32.BW_4293682142
+	partName = Part
+	persistentId = 2060677380
+	pos = -10.2013836,28.3345623,2.84315038
+	attPos = 0,0,0
+	attPos0 = 0,-2.61500168,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = -1,0,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 317102.25
+	modMass = 0.0592592582
+	modSize = 0,0,0
+	link = OrbitalKitContainer2_4293700686
+	link = Rockomax32.BW_4293664518
+	link = Rockomax32.BW_4293663010
+	link = Rockomax32.BW_4293662884
+	link = Rockomax32.BW_4293662758
+	attN = top,OrbitalKitContainer2_4293700686_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
+	attN = bottom,largeAdapter_4293698606_0|-1.86000001|0_0|-1|0_0|-1.86000001|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleTankManager
+		isEnabled = True
+		ModuleSaveFromPrefab = True
+		Volume = 19.7530861
+		DoCostPatch = False
+		CostPatch = -2020.58154
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		AddRemoveEnabled = True
+		TypeChangeEnabled = True
+		ExcludeTankTypes = 
+		IncludeTankTypes = 
+		MANAGED = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 2
+			managed = True
+			TankType = Components
+			InitialAmount = 0
+			CurrentResource = MaterialKits
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 9.87654305
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 3
+			managed = True
+			TankType = Components
+			InitialAmount = 0
+			CurrentResource = SpecializedParts
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 9.87654305
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 2
+		managed = True
+		TankType = Components
+		InitialAmount = 0
+		CurrentResource = MaterialKits
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 9.87654305
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 3
+		managed = True
+		TankType = Components
+		InitialAmount = 0
+		CurrentResource = SpecializedParts
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 9.87654305
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MaterialKits
+		amount = 0
+		maxAmount = 9382.7158199999994
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SpecializedParts
+		amount = 0
+		maxAmount = 9382.7158199999994
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = OrbitalKitContainer2_4293700686
+	partName = Part
+	persistentId = 3884278765
+	pos = -10.2013836,31.6945629,2.84315038
+	attPos = 0,0,0
+	attPos0 = 0,3.36000061,0
+	rot = 0,0,0,-1
+	attRot = 0,0,0,-0.999999881
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = standardNoseCone_4293700536
+	attN = top,standardNoseCone_4293700536_0|1.5|0_0|1|0_0|1.5|0_0|1|0
+	attN = bottom,Rockomax32.BW_4293682142_0|-1.5|0_0|-1|0_0|-1.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DockedKitContainer
+		isEnabled = True
+		ConstructDockingNode = -1
+		yRotation = Forward
+		Facility = None
+		KitName = None
+		ConstraintType = None
+		ConstrainBulkhead = 1.25
+		ConstrainLength = 1
+		ConstrainWidth = 1.25
+		ConstrainHeight = 1.25
+		Size = (2.02929378, 2.84719992, 2.02929473)
+		TargetSize = (0, 0, 0)
+		state = IDLE
+		ShowDeployHint = False
+		stagingEnabled = True
+		kit
+		{
+			KitResourcesMass = 0
+			KitResourcesCost = 0
+			ResourcesMass = 0
+			ResourcesCost = 0
+			HasLaunchClamps = False
+			Name = 
+			CurrentIndex = -1
+			id = 332786e76c3048cfac4a8255d6f1dd79
+			ShipMetric
+			{
+				bounds_center = 0,0,0
+				bounds_size = 0,0,0
+				crew_capacity = 0
+				mass = 0
+				cost = 0
+			}
+			DockingNodes
+			{
+			}
+			AdditionalResources
+			{
+			}
+			Jobs
+			{
+			}
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Transport
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = NamedDockingNode
+		isEnabled = True
+		PortName = Construction
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293700536
+	partName = Part
+	persistentId = 522769089
+	pos = -10.2013836,33.4445648,2.84315038
+	attPos = 0,0,0
+	attPos0 = 0,1.75000107,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom01,OrbitalKitContainer2_4293700686_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Rockomax32.BW_4293664518
+	partName = Part
+	persistentId = 1644296893
+	pos = -10.2013836,28.1345615,0.243150473
+	attPos = 0,0.0824069977,-1.36688423
+	attPos0 = 0,-0.282407761,-1.23311567
+	rot = -0.5,0.500000119,-0.49999994,0.5
+	attRot = 0.707106709,-0.707106709,0,0
+	attRot0 = -0.5,0.500000119,-0.49999994,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 446583.719
+	modMass = 0.0592592582
+	modSize = 0,0,0
+	link = dockingPortLarge_4293661792
+	sym = Rockomax32.BW_4293662884
+	srfN = srfAttach,Rockomax32.BW_4293682142,COLLIDER32,1.25|0|0,1|0|0,1.25|0|0
+	attN = top,dockingPortLarge_4293661792_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
+	attN = bottom,Null_0_0|-1.86000001|0_0|-1|0_0|-1.86000001|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleTankManager
+		isEnabled = True
+		ModuleSaveFromPrefab = True
+		Volume = 19.7530861
+		DoCostPatch = False
+		CostPatch = -2020.58154
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		AddRemoveEnabled = True
+		TypeChangeEnabled = True
+		ExcludeTankTypes = 
+		IncludeTankTypes = 
+		MANAGED = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 9
+			managed = True
+			TankType = Components
+			InitialAmount = 0
+			CurrentResource = Machinery
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 9.87654305
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 10
+			managed = True
+			TankType = Components
+			InitialAmount = 0
+			CurrentResource = SpecializedParts
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 9.87654305
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 9
+		managed = True
+		TankType = Components
+		InitialAmount = 0
+		CurrentResource = Machinery
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 9.87654305
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 10
+		managed = True
+		TankType = Components
+		InitialAmount = 0
+		CurrentResource = SpecializedParts
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 9.87654305
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Machinery
+		amount = 0
+		maxAmount = 9382.7158199999994
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SpecializedParts
+		amount = 0
+		maxAmount = 9382.7158199999994
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = dockingPortLarge_4293661792
+	partName = Part
+	persistentId = 3903972661
+	pos = -10.2013836,28.1345615,-1.61685157
+	attPos = 0,0,0
+	attPos0 = 3.32594283E-07,1.86000025,4.76836703E-07
+	rot = -5.96046448E-08,-0.707106829,0.707106829,2.98023224E-08
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = -1.40282722E-07,-0.707106829,-2.98023224E-08,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = standardNoseCone_4293618264
+	sym = dockingPortLarge_4293661724
+	sym = dockingPortLarge_4293662114
+	sym = dockingPortLarge_4293661860
+	attN = top,standardNoseCone_4293618264_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
+	attN = bottom,Rockomax32.BW_4293664518_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Light
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293618264
+	partName = Part
+	persistentId = 4194639055
+	pos = -10.2013836,28.1345615,-2.15685153
+	attPos = 0,0,0
+	attPos0 = 1.29889614E-07,0.539999664,1.21884662E-08
+	rot = -5.96046448E-08,-0.707106829,0.707106829,2.98023224E-08
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = -4.36445857E-09,0,-4.36445857E-09,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = standardNoseCone_4293618214
+	sym = standardNoseCone_4293698334
+	sym = standardNoseCone_4293618314
+	attN = bottom01,dockingPortLarge_4293661792_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Rockomax32.BW_4293663010
+	partName = Part
+	persistentId = 1851473318
+	pos = -12.801383,28.1345615,2.84315014
+	attPos = -1.36688423,0.0824069977,-1.1920929E-07
+	attPos0 = -1.2331152,-0.282407761,-5.96046448E-08
+	rot = -0.707106709,0.707106829,4.21468478E-08,-8.42936956E-08
+	attRot = 0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106709,0.707106829,4.21468478E-08,-8.42936956E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = -0.000122070313
+	modMass = 0
+	modSize = 0,0,0
+	link = dockingPortLarge_4293661724
+	srfN = srfAttach,Rockomax32.BW_4293682142,COLLIDER32,1.25|0|0,1|0|0,1.25|0|0
+	attN = top,dockingPortLarge_4293661724_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
+	attN = bottom,Null_0_0|-1.86000001|0_0|-1|0_0|-1.86000001|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleTankManager
+		isEnabled = True
+		ModuleSaveFromPrefab = True
+		Volume = 19.7530861
+		DoCostPatch = False
+		CostPatch = -2020.58154
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		AddRemoveEnabled = True
+		TypeChangeEnabled = True
+		ExcludeTankTypes = 
+		IncludeTankTypes = 
+		MANAGED = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 4
+			managed = True
+			TankType = LiquidChemicals
+			InitialAmount = 0
+			CurrentResource = LiquidFuel
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 8.88888836
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 5
+			managed = True
+			TankType = LiquidChemicals
+			InitialAmount = 0
+			CurrentResource = Oxidizer
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 10.8641977
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 4
+		managed = True
+		TankType = LiquidChemicals
+		InitialAmount = 0
+		CurrentResource = LiquidFuel
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 8.88888836
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 5
+		managed = True
+		TankType = LiquidChemicals
+		InitialAmount = 0
+		CurrentResource = Oxidizer
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 10.8641977
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 1439.9998800000001
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 1760
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = dockingPortLarge_4293661724
+	partName = Part
+	persistentId = 2165038141
+	pos = -14.6613836,28.1345615,2.84315062
+	attPos = 0,0,0
+	attPos0 = 2.38418664E-07,1.85999966,-2.50338186E-08
+	rot = 0.49999997,-0.49999994,0.50000006,0.5
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = -1.49011612E-07,-0.707106829,0,-0.707106769
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = standardNoseCone_4293618214
+	sym = dockingPortLarge_4293662114
+	sym = dockingPortLarge_4293661860
+	sym = dockingPortLarge_4293661792
+	attN = top,standardNoseCone_4293618214_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
+	attN = bottom,Rockomax32.BW_4293663010_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Light
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293618214
+	partName = Part
+	persistentId = 2434727013
+	pos = -15.2013836,28.1345615,2.84315062
+	attPos = 0,0,0
+	attPos0 = 1.72369798E-08,0.539999783,-1.13796382E-07
+	rot = 0.5,-0.499999911,0.50000006,0.5
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = 2.10734328E-08,2.98023224E-08,-2.10734257E-08,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = standardNoseCone_4293698334
+	sym = standardNoseCone_4293618314
+	sym = standardNoseCone_4293618264
+	attN = bottom01,dockingPortLarge_4293661724_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Rockomax32.BW_4293662884
+	partName = Part
+	persistentId = 297877948
+	pos = -10.2013836,28.1345615,5.44315052
+	attPos = 0,0.0824069977,1.36688435
+	attPos0 = 0,-0.282407761,1.23311555
+	rot = -0.499999911,0.49999997,0.5,-0.500000119
+	attRot = 0.707106709,-0.707106709,0,0
+	attRot0 = -0.499999911,0.49999997,0.5,-0.500000119
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 446583.719
+	modMass = 0.0592592582
+	modSize = 0,0,0
+	link = dockingPortLarge_4293662114
+	sym = Rockomax32.BW_4293664518
+	srfN = srfAttach,Rockomax32.BW_4293682142,COLLIDER32,1.25|0|0,1|0|0,1.25|0|0
+	attN = top,dockingPortLarge_4293662114_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
+	attN = bottom,Null_0_0|-1.86000001|0_0|-1|0_0|-1.86000001|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleTankManager
+		isEnabled = True
+		ModuleSaveFromPrefab = True
+		Volume = 19.7530861
+		DoCostPatch = False
+		CostPatch = -2020.58154
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		AddRemoveEnabled = True
+		TypeChangeEnabled = True
+		ExcludeTankTypes = 
+		IncludeTankTypes = 
+		MANAGED = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 9
+			managed = True
+			TankType = Components
+			InitialAmount = 0
+			CurrentResource = Machinery
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 9.87654305
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 10
+			managed = True
+			TankType = Components
+			InitialAmount = 0
+			CurrentResource = SpecializedParts
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 9.87654305
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 9
+		managed = True
+		TankType = Components
+		InitialAmount = 0
+		CurrentResource = Machinery
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 9.87654305
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 10
+		managed = True
+		TankType = Components
+		InitialAmount = 0
+		CurrentResource = SpecializedParts
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 9.87654305
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Machinery
+		amount = 0
+		maxAmount = 9382.7158199999994
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SpecializedParts
+		amount = 0
+		maxAmount = 9382.7158199999994
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = dockingPortLarge_4293662114
+	partName = Part
+	persistentId = 1874610362
+	pos = -10.2013836,28.1345615,7.30315208
+	attPos = 0,0,0
+	attPos0 = 2.77161917E-07,1.86000025,4.76836703E-07
+	rot = 0.707106829,2.98023224E-08,2.98023224E-08,0.707106829
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = -1.49011612E-07,-0.707106829,-2.98023224E-08,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = standardNoseCone_4293698334
+	sym = dockingPortLarge_4293661860
+	sym = dockingPortLarge_4293661792
+	sym = dockingPortLarge_4293661724
+	attN = top,standardNoseCone_4293698334_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
+	attN = bottom,Rockomax32.BW_4293662884_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Light
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293698334
+	partName = Part
+	persistentId = 3630522100
+	pos = -10.2013836,28.1345615,7.84315205
+	attPos = 0,0,0
+	attPos0 = 1.36555741E-07,0.539999664,-1.05708455E-08
+	rot = 0.707106829,2.98023224E-08,2.98023224E-08,0.707106829
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = standardNoseCone_4293618314
+	sym = standardNoseCone_4293618264
+	sym = standardNoseCone_4293618214
+	attN = bottom01,dockingPortLarge_4293662114_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Rockomax32.BW_4293662758
+	partName = Part
+	persistentId = 1373164880
+	pos = -7.60138416,28.1345615,2.84315014
+	attPos = 1.36688375,0.0824069977,-1.1920929E-07
+	attPos0 = 1.23311567,-0.282407761,-5.96046448E-08
+	rot = 4.21468478E-08,-8.42936956E-08,0.707106709,-0.707106829
+	attRot = 0.707106709,-0.707106709,0,0
+	attRot0 = 4.21468478E-08,-8.42936956E-08,0.707106709,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = -0.000122070313
+	modMass = 0
+	modSize = 0,0,0
+	link = dockingPortLarge_4293661860
+	srfN = srfAttach,Rockomax32.BW_4293682142,COLLIDER32,1.25|0|0,1|0|0,1.25|0|0
+	attN = top,dockingPortLarge_4293661860_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
+	attN = bottom,Null_0_0|-1.86000001|0_0|-1|0_0|-1.86000001|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleTankManager
+		isEnabled = True
+		ModuleSaveFromPrefab = True
+		Volume = 19.7530861
+		DoCostPatch = False
+		CostPatch = -2020.58154
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		AddRemoveEnabled = True
+		TypeChangeEnabled = True
+		ExcludeTankTypes = 
+		IncludeTankTypes = 
+		MANAGED = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 4
+			managed = True
+			TankType = LiquidChemicals
+			InitialAmount = 0
+			CurrentResource = LiquidFuel
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 8.88888836
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		TANK
+		{
+			name = ModuleSwitchableTank
+			isEnabled = True
+			id = 5
+			managed = True
+			TankType = LiquidChemicals
+			InitialAmount = 0
+			CurrentResource = Oxidizer
+			CoreTemperatureDisplay = 0
+			BoiloffDisplay = 0
+			CoolingDisplay = 0
+			EcDisplay = 0
+			ModuleSaveFromPrefab = False
+			Volume = 10.8641977
+			DoCostPatch = False
+			CostPatch = 0
+			DoMassPatch = False
+			MassPatch = 0
+			stagingEnabled = True
+			EVENTS
+			{
+			}
+			ACTIONS
+			{
+			}
+			UPGRADESAPPLIED
+			{
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 4
+		managed = True
+		TankType = LiquidChemicals
+		InitialAmount = 0
+		CurrentResource = LiquidFuel
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 8.88888836
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSwitchableTank
+		isEnabled = True
+		id = 5
+		managed = True
+		TankType = LiquidChemicals
+		InitialAmount = 0
+		CurrentResource = Oxidizer
+		CoreTemperatureDisplay = 0
+		BoiloffDisplay = 0
+		CoolingDisplay = 0
+		EcDisplay = 0
+		ModuleSaveFromPrefab = False
+		Volume = 10.8641977
+		DoCostPatch = False
+		CostPatch = 0
+		DoMassPatch = False
+		MassPatch = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 1439.9998800000001
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 1760
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = dockingPortLarge_4293661860
+	partName = Part
+	persistentId = 2230027034
+	pos = -5.74138355,28.1345615,2.8431499
+	attPos = 0,0,0
+	attPos0 = 3.57627982E-07,1.85999966,-2.50338186E-08
+	rot = 0.5,0.5,-0.5,0.5
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = -1.40282722E-07,-0.707106829,8.72889938E-09,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = standardNoseCone_4293618314
+	sym = dockingPortLarge_4293661792
+	sym = dockingPortLarge_4293661724
+	sym = dockingPortLarge_4293662114
+	attN = top,standardNoseCone_4293618314_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
+	attN = bottom,Rockomax32.BW_4293662758_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Light
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293618314
+	partName = Part
+	persistentId = 2166617583
+	pos = -5.20138407,28.1345615,2.8431499
+	attPos = 0,0,0
+	attPos0 = 3.90486887E-09,0.539999783,5.41288481E-09
+	rot = 0.5,0.5,-0.5,0.5
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = -2.10734257E-08,0,-2.10734257E-08,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = standardNoseCone_4293618264
+	sym = standardNoseCone_4293618214
+	sym = standardNoseCone_4293698334
+	attN = bottom01,dockingPortLarge_4293661860_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
